@@ -1,6 +1,8 @@
 package baitap;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
@@ -18,9 +20,9 @@ public class bai9 {
         System.out.println("Danh sách đàu vào: ");
         System.out.println(arrayList);
 
-        ArrayList<Integer> primeNum = new ArrayList<>();
-        ArrayList<Integer> evenNum = new ArrayList<>();
-        ArrayList<Integer> oddNum = new ArrayList<>();
+        HashSet<Integer> primeNum = new HashSet<>();
+        HashSet<Integer> evenNum = new HashSet<>();
+        HashSet<Integer> oddNum = new HashSet<>();
 
         for (int i = 0; i < arrayList.size(); i++) {
             boolean isPrime = true;
